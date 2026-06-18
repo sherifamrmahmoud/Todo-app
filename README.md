@@ -15,11 +15,11 @@ A clean, modern, and efficient task management application built with **Flutter*
 
 ## 🚀 Key Features
 
-* **Task Management**: Easily add new tasks via a clean input interface.
-* **Swipe-to-Delete**: Intuitive "Swipe-to-Dismiss" gesture to quickly remove tasks.
-* **Edit Functionality**: Simply tap on any task or the edit icon to update it instantly.
-* **Responsive UI**: Modern flat design that looks great on all screen sizes.
-* **State Management**: Powered by **Bloc/Cubit** for a reactive and smooth user experience.
+* **Task Management**: Create, Read, Update, and Delete (CRUD) operations for your daily tasks.
+* **Swipe-to-Dismiss**: Integrated **`Dismissible`** widget for an intuitive and fast task removal experience.
+* **Edit Functionality**: Easily update tasks via a quick tap or edit icon.
+* **Responsive UI**: Modern flat design optimized for mobile screens.
+* **State Management**: Robust reactive architecture using **Bloc/Cubit**.
 
 ---
 
@@ -28,6 +28,7 @@ A clean, modern, and efficient task management application built with **Flutter*
 * **Framework**: Flutter
 * **Language**: Dart
 * **State Management**: Bloc / Cubit
+* **UI Interactions**: Dismissible (Swipe-to-Delete)
 * **Design**: Minimalist / Clean UI
 * **Data Handling**: List-based local management
 
@@ -35,9 +36,9 @@ A clean, modern, and efficient task management application built with **Flutter*
 
 ## 💡 How It Works
 
-1.  **Add**: Type your task in the field at the bottom and click "Add".
-2.  **Edit**: Click on an existing task (or the edit icon) to modify it via an intuitive dialog.
-3.  **Delete**: Swipe any task to the left to remove it from your list.
+1.  **Add**: Enter your task in the input field at the bottom and click "Add".
+2.  **Edit**: Simply click on the **Edit icon** or the task text to update its content.
+3.  **Delete**: **Swipe left** on any task to trigger the `Dismissible` effect and remove it instantly.
 
 ---
 
