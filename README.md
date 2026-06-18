@@ -7,7 +7,7 @@ A clean, modern, and efficient task management application built with **Flutter*
 ## 📸 App Preview
 
 <div align="center">
-  <img src="assets/todo_app.jpg" width="300" />
+  <img src="assets/Todo.png" width="300" />
   <h3>✨ Minimalist Task Interface</h3>
 </div>
 
